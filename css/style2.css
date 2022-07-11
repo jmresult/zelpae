@@ -1,0 +1,29 @@
+.block-search-filter{
+    padding-bottom: 70px;
+}
+
+.hideBars{
+    overflow: hidden !important;
+}
+
+.modal.fade.open{
+    opacity: 0;
+    display: block !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: rgb(0 0 0 / 30%);
+}
+
+@media screen and (min-width: 1024px) {
+    .layout-page-content{
+        background: #662bcb;
+    }
+    .partner-list-letter-block__partners-column{
+        padding-left: 2.5rem;
+        width: 100%;
+    }
+    .partner-list-letter-block__partners-column > li{
+        width: 100%;
+        text-align: left;
+    }
+}

@@ -1,0 +1,31 @@
+.welcome-block__title{
+    font-size: 19px;
+    font-weight: 900;
+}
+
+img.welcome-block__image{
+    max-width: 200px;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    body *{
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    body {
+        background: #682ccb;
+        width: 100vw;
+        max-width: 100vw;
+    }
+}
