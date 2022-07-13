@@ -6,6 +6,11 @@
     overflow: hidden !important;
 }
 
+
+h2.section__title.default{
+    margin-top: 40px;
+}
+
 .modal.fade.open{
     opacity: 0;
     display: block !important;
