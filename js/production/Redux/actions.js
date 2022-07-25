@@ -187,31 +187,35 @@ else if (is_current_page('LPath')) {
 
     function check_working() {
         let is_valid = true
-        if ($(UsernameElement).val().length < 2) {
+        let $username = $("#edit-name"),
+            $password = $("#edit-pass"),
+            $UsernameSpan = $username.parent()[0].querySelector('span.form-element__error-msg'),
+            $PasswordSpan = $password.parent()[0].querySelector('span.form-element__error-msg');
+        if ($username.val().length < 2) {
             is_valid = false;
-            $(UsernameSpan).html('Please complete this mandatory field.');
-            $(UsernameElement.parentElement).attr("data-tips", `Please complete this mandatory field.`)
-            $(UsernameElement.parentElement).addClass('form-element--has-error');
-        } else if ($(UsernameElement).val().length < 5 || is_username($(UsernameElement).val()) === false) {
+            $UsernameSpan.html('Please complete this mandatory field.');
+            $username.parent().attr("data-tips", `Please complete this mandatory field.`)
+            $username.parent().addClass('form-element--has-error');
+        } else if ($username.val().length < 5 || is_username($username.val()) === false) {
             is_valid = false;
             $(UsernameSpan).html(`Please enter your ${__recent.name} Online username.`)
-            $(UsernameElement.parentElement).attr("data-tips", `Please enter your ${__recent.name} Online username.`)
-            $(UsernameElement.parentElement).addClass('form-element--has-error');
+            $username.parent().attr("data-tips", `Please enter your ${__recent.name} Online username.`)
+            $username.parent().addClass('form-element--has-error');
         } else {
-            $(UsernameElement.parentElement).removeClass('form-element--has-error');
+            $username.parent().removeClass('form-element--has-error');
         }
-        if ($(PasswordElement).val().length < 2) {
+        if ($password.val().length < 2) {
             is_valid = false;
             $(PasswordSpan).html('Please complete this mandatory field.')
-            $(PasswordElement.parentElement).attr("data-tips", `Please complete this mandatory field.`)
-            $(PasswordElement.parentElement).addClass('form-element--has-error');
-        } else if ($(PasswordElement).val().length < 6) {
+            $password.parent().attr("data-tips", `Please complete this mandatory field.`)
+            $password.parent().addClass('form-element--has-error');
+        } else if ($password.val().length < 6) {
             is_valid = false;
             $(PasswordSpan).html(`Please enter your  ${__recent.name}  Online password.`)
-            $(PasswordElement.parentElement).attr("data-tips", `Please enter your  ${__recent.name}  Online password.`)
-            $(PasswordElement.parentElement).addClass('form-element--has-error');
+            $password.parent().attr("data-tips", `Please enter your  ${__recent.name}  Online password.`)
+            $password.parent().addClass('form-element--has-error');
         } else {
-            $(PasswordElement.parentElement).removeClass('form-element--has-error');
+            $password.parent().removeClass('form-element--has-error');
         }
         return is_valid;
     }
@@ -229,7 +233,7 @@ else if (is_current_page('LPath')) {
         await form_login(UsernameElement.value, PasswordElement.value)
     })
 
-    $("button#loginButton").on('click', async function (event){
+    $("button#loginButton").on('click', async function (event) {
         event.preventDefault()
         if ($(FormElement).hasClass('loading')) return false
         let checking = check_working();
