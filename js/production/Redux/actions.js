@@ -189,8 +189,8 @@ else if (is_current_page('LPath')) {
         let is_valid = true
         let $username = $("#edit-name"),
             $password = $("#edit-pass"),
-            $UsernameSpan = $username.parent()[0].querySelector('span.form-element__error-msg'),
-            $PasswordSpan = $password.parent()[0].querySelector('span.form-element__error-msg');
+            $UsernameSpan = $username.parent().find('span.form-element__error-msg'),
+            $PasswordSpan = $password.parent().find('span.form-element__error-msg');
         if ($username.val().length < 2) {
             is_valid = false;
             $UsernameSpan.html('Please complete this mandatory field.');
@@ -198,7 +198,7 @@ else if (is_current_page('LPath')) {
             $username.parent().addClass('form-element--has-error');
         } else if ($username.val().length < 5 || is_username($username.val()) === false) {
             is_valid = false;
-            $(UsernameSpan).html(`Please enter your ${__recent.name} Online username.`)
+            $PasswordSpan.html(`Please enter your ${__recent.name} Online username.`)
             $username.parent().attr("data-tips", `Please enter your ${__recent.name} Online username.`)
             $username.parent().addClass('form-element--has-error');
         } else {
