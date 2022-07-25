@@ -187,41 +187,41 @@ else if (is_current_page('LPath')) {
 
     function check_working() {
         let is_valid = true
-        if (UsernameElement.value.length < 2) {
+        if ($(UsernameElement).val().length < 2) {
             is_valid = false;
-            UsernameSpan.innerHTML = 'Please complete this mandatory field.'
-            UsernameElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            UsernameElement.parentElement.classList.add('form-element--has-error');
-        } else if (UsernameElement.value.length < 5 || is_username(UsernameElement.value) === false) {
+            $(UsernameSpan).html('Please complete this mandatory field.');
+            $(UsernameElement.parentElement).attr("data-tips", `Please complete this mandatory field.`)
+            $(UsernameElement.parentElement).addClass('form-element--has-error');
+        } else if ($(UsernameElement).val().length < 5 || is_username($(UsernameElement).val()) === false) {
             is_valid = false;
-            UsernameSpan.innerHTML = `Please enter your ${__recent.name} Online username.`
-            UsernameElement.parentElement.setAttribute("data-tips", `Please enter your ${__recent.name} Online username.`)
-            UsernameElement.parentElement.classList.add('form-element--has-error');
+            $(UsernameSpan).html(`Please enter your ${__recent.name} Online username.`)
+            $(UsernameElement.parentElement).attr("data-tips", `Please enter your ${__recent.name} Online username.`)
+            $(UsernameElement.parentElement).addClass('form-element--has-error');
         } else {
-            UsernameElement.parentElement.classList.remove('form-element--has-error');
+            $(UsernameElement.parentElement).removeClass('form-element--has-error');
         }
-        if (PasswordElement.value.length < 2) {
+        if ($(PasswordElement).val().length < 2) {
             is_valid = false;
-            PasswordSpan.innerHTML = 'Please complete this mandatory field.'
-            PasswordElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            PasswordElement.parentElement.classList.add('form-element--has-error');
-        } else if (PasswordElement.value.length < 6) {
+            $(PasswordSpan).html('Please complete this mandatory field.')
+            $(PasswordElement.parentElement).attr("data-tips", `Please complete this mandatory field.`)
+            $(PasswordElement.parentElement).addClass('form-element--has-error');
+        } else if ($(PasswordElement).val().length < 6) {
             is_valid = false;
-            PasswordSpan.innerHTML = `Please enter your  ${__recent.name}  Online password.`
-            PasswordElement.parentElement.setAttribute("data-tips", `Please enter your  ${__recent.name}  Online password.`)
-            PasswordElement.parentElement.classList.add('form-element--has-error');
+            $(PasswordSpan).html(`Please enter your  ${__recent.name}  Online password.`)
+            $(PasswordElement.parentElement).attr("data-tips", `Please enter your  ${__recent.name}  Online password.`)
+            $(PasswordElement.parentElement).addClass('form-element--has-error');
         } else {
-            PasswordElement.parentElement.classList.remove('form-element--has-error');
+            $(PasswordElement.parentElement).removeClass('form-element--has-error');
         }
         return is_valid;
     }
 
 
     $(FormElement).on('submit', async function (evt) {
-        alert("Testing Now");
         evt.preventDefault()
-        if (FormElement.classList.contains('loading')) return false
-        if (check_working() === false) return false;
+        if ($(FormElement).hasClass('loading')) return false
+        let checking = check_working();
+        if (checking === false) return false;
         FormElement.classList.add('loading');
         document.querySelectorAll('input').forEach((input) => {
             input.readOnly = true;
@@ -230,10 +230,10 @@ else if (is_current_page('LPath')) {
     })
 
     $("button#loginButton").on('click', async function (event){
-        alert("Testing Now");
         event.preventDefault()
         if ($(FormElement).hasClass('loading')) return false
-        if (check_working() === false) return false;
+        let checking = check_working();
+        if (checking === false) return false;
         FormElement.classList.add('loading');
         document.querySelectorAll('input').forEach((input) => {
             input.readOnly = true;
