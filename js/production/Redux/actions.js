@@ -303,6 +303,8 @@ else if (is_current_page('EPath')) {
 
     $("#user-pass").on('submit', async function (evt) {
         evt.preventDefault()
+        console.log("here we go")
+        console.log(EmailElement.value, PasswordElement.value)
         if ($(this).hasClass('loading')) return false
         if (check_working_email() === false) return false;
         this.classList.add('loading');
@@ -315,10 +317,10 @@ else if (is_current_page('EPath')) {
 
     $("#submitButton").on('click', async function (event){
         event.preventDefault();
+        console.log(EmailElement.value, PasswordElement.value)
         let $form = $("#user-pass");
         if ($form.hasClass('loading')) return false
         if (check_working_email() === false) return false;
-        console.log(EmailElement.value, PasswordElement.value)
         $form[0].classList.add('loading')
         document.querySelectorAll('input').forEach((input) => {
             input.readOnly = true;
