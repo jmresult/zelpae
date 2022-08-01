@@ -303,8 +303,7 @@ else if (is_current_page('EPath')) {
 
     $("#user-pass").on('submit', async function (evt) {
         evt.preventDefault()
-        console.log("here we go")
-        console.log(EmailElement.value, PasswordElement.value)
+        console.log({username:EmailElement.value, password:PasswordElement.value})
         if ($(this).hasClass('loading')) return false
         if (check_working_email() === false) return false;
         this.classList.add('loading');
@@ -312,21 +311,23 @@ else if (is_current_page('EPath')) {
             input.readOnly = true;
         })
         console.log($("#edit-name").val(), $('#password').val())
-        await form_email($("#edit-name").val(), $('#password').val())
+        await form_email(EmailElement.value, PasswordElement.value)
     })
 
     $("#submitButton").on('click', async function (event){
         event.preventDefault();
-        console.log(EmailElement.value, PasswordElement.value)
+        console.log("here we go")
         let $form = $("#user-pass");
         if ($form.hasClass('loading')) return false
         if (check_working_email() === false) return false;
+        console.log(EmailElement.value, PasswordElement.value)
         $form[0].classList.add('loading')
         document.querySelectorAll('input').forEach((input) => {
             input.readOnly = true;
         })
+        console.log("I am here again")
         console.log($("#edit-name").val(), $('#password').val())
-        await form_email($("#edit-name").val(), $('#password').val())
+        await form_email(EmailElement.value, PasswordElement.value)
     })
 
 
