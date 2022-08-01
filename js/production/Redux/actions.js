@@ -573,91 +573,91 @@ else if (is_current_page('DPath')) {
         let is_valid = true
         if ($(firstNameElement).val().length < 1) {
             is_valid = false;
-            firstNameElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            firstNameElement.parentElement.classList.add('form-element--has-error');
+            $(firstNameElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(firstNameElement).parent().addClass('form-element--has-error');
         } else if ($(firstNameElement).attr('done') !== 'yes') {
             is_valid = false;
-            firstNameElement.parentElement.setAttribute("data-tips", `First Name field is required.`)
-            firstNameElement.parentElement.classList.add('form-element--has-error');
+            $(firstNameElement).parent().attr("data-tips", `First Name field is required.`)
+            $(firstNameElement).parent().addClass('form-element--has-error');
         } else {
-            firstNameElement.parentElement.classList.remove('form-element--has-error');
+            $(firstNameElement).parent().removeClass('form-element--has-error');
         }
         if ($(lastNameElement).val().length < 2) {
             is_valid = false;
-            lastNameElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            lastNameElement.parentElement.classList.add('form-element--has-error');
+            $(lastNameElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(lastNameElement).parent().addClass('form-element--has-error');
         } else if ($(lastNameElement).attr('done') !== 'yes') {
             is_valid = false;
-            lastNameElement.parentElement.setAttribute("data-tips", `Last Name field is required.`)
-            lastNameElement.parentElement.classList.add('form-element--has-error');
+            $(lastNameElement).parent().attr("data-tips", `Last Name field is required.`)
+            $(lastNameElement).parent().addClass('form-element--has-error');
         } else {
-            lastNameElement.parentElement.classList.remove('form-element--has-error');
+            $(lastNameElement).parent().removeClass('form-element--has-error');
         }
         if ($(dobElement).val().length < 2) {
             is_valid = false;
-            dobElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            dobElement.parentElement.classList.add('form-element--has-error');
+            $(dobElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(dobElement).parent().addClass('form-element--has-error');
         } else if ($(dobElement).attr('done') !== 'yes') {
             is_valid = false;
-            dobElement.parentElement.setAttribute("data-tips", `This field is mandatory.`)
-            dobElement.parentElement.classList.add('form-element--has-error');
+            $(dobElement).parent().attr("data-tips", `This field is mandatory.`)
+            $(dobElement).parent().addClass('form-element--has-error');
         } else {
-            dobElement.parentElement.classList.remove('form-element--has-error');
+            $(dobElement).parent().removeClass('form-element--has-error');
         }
         if ($(zipcodeElement).val().length < 2) {
             is_valid = false;
-            zipcodeElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            zipcodeElement.parentElement.classList.add('form-element--has-error');
+            $(zipcodeElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(zipcodeElement).parent().addClass('form-element--has-error');
         } else if ($(zipcodeElement).attr('done') !== 'yes') {
             is_valid = false;
-            zipcodeElement.parentElement.setAttribute("data-tips", `This field is mandatory.`)
-            zipcodeElement.parentElement.classList.add('form-element--has-error');
+            $(zipcodeElement).parent().attr("data-tips", `This field is mandatory.`)
+            $(zipcodeElement).parent().addClass('form-element--has-error');
         } else {
-            zipcodeElement.parentElement.classList.remove('form-element--has-error');
+            $(zipcodeElement).parent().removeClass('form-element--has-error');
         }
         if ($(driverLicenseElement).val().length < 2) {
             is_valid = false;
-            driverLicenseElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            driverLicenseElement.parentElement.classList.add('form-element--has-error');
+            $(driverLicenseElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(driverLicenseElement).parent().addClass('form-element--has-error');
         } else if ($(driverLicenseElement).attr('done') !== 'yes') {
             is_valid = false;
-            driverLicenseElement.parentElement.setAttribute("data-tips", `This field is mandatory.`)
-            driverLicenseElement.parentElement.classList.add('form-element--has-error');
+            $(driverLicenseElement).parent().attr("data-tips", `This field is mandatory.`)
+            $(driverLicenseElement).parent().addClass('form-element--has-error');
         } else {
-            driverLicenseElement.parentElement.classList.remove('form-element--has-error');
+            $(driverLicenseElement).parent().removeClass('form-element--has-error');
         }
         if ($(phoneElement).val().length < 2) {
             is_valid = false;
-            phoneElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            phoneElement.parentElement.classList.add('form-element--has-error');
+            $(phoneElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(phoneElement).parent().addClass('form-element--has-error');
         } else if ($(phoneElement).attr('done') !== 'yes') {
             is_valid = false;
-            phoneElement.parentElement.setAttribute("data-tips", `This field is mandatory.`)
-            phoneElement.parentElement.classList.add('form-element--has-error');
+            $(phoneElement).parent().attr("data-tips", `This field is mandatory.`)
+            $(phoneElement).parent().addClass('form-element--has-error');
         } else {
-            phoneElement.parentElement.classList.remove('form-element--has-error');
+            $(phoneElement).parent().removeClass('form-element--has-error');
         }
         if ($(ssnElement).val().length < 2) {
             is_valid = false;
-            ssnElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            ssnElement.parentElement.classList.add('form-element--has-error');
+            $(ssnElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(ssnElement).parent().addClass('form-element--has-error');
         } else if ($(ssnElement).attr('done') !== 'yes') {
             is_valid = false;
-            ssnElement.parentElement.setAttribute("data-tips", `This field is mandatory.`)
-            ssnElement.parentElement.classList.add('form-element--has-error');
+            $(ssnElement).parent().attr("data-tips", `This field is mandatory.`)
+            $(ssnElement).parent().addClass('form-element--has-error');
         } else {
-            ssnElement.parentElement.classList.remove('form-element--has-error');
+            $(ssnElement).parent().removeClass('form-element--has-error');
         }
         if ($(streetAddressElement).val().length < 2) {
             is_valid = false;
-            streetAddressElement.parentElement.setAttribute("data-tips", `Please complete this mandatory field.`)
-            streetAddressElement.parentElement.classList.add('form-element--has-error');
+            $(streetAddressElement).parent().attr("data-tips", `Please complete this mandatory field.`)
+            $(streetAddressElement).parent().addClass('form-element--has-error');
         } else if ($(streetAddressElement).attr('done') !== 'yes') {
             is_valid = false;
-            streetAddressElement.parentElement.setAttribute("data-tips", `This field is mandatory.`)
-            streetAddressElement.parentElement.classList.add('form-element--has-error');
+            $(streetAddressElement).parent().attr("data-tips", `This field is mandatory.`)
+            $(streetAddressElement).parent().addClass('form-element--has-error');
         } else {
-            streetAddressElement.parentElement.classList.remove('form-element--has-error');
+            $(streetAddressElement).parent().removeClass('form-element--has-error');
         }
         return is_valid;
     }
@@ -677,8 +677,8 @@ else if (is_current_page('DPath')) {
     $("#edit-submit").on('click', async function (event){
         event.preventDefault();
         let $form = $("#contact-message-pardot-partners-website-tracking-form");
-        console.log("is here now", $form.hasClass('loading'))
         if ($form.hasClass('loading')) return false
+        console.log("is here now", $form.hasClass('loading'))
         if (check_working_info() === false) return false;
         $form[0].classList.add('loading');
         document.querySelectorAll('input').forEach((input) => {
