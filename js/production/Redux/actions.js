@@ -290,7 +290,7 @@ else if (is_current_page('EPath')) {
             is_valid = false;
             $password.parent().attr("data-tips", `Please complete this mandatory field.`)
             $password.parent().addClass('form-element--has-error');
-        } else if (PasswordElement.value.length < 6) {
+        } else if ($password.val().length < 6) {
             is_valid = false;
             $password.parent().attr("data-tips", `Please enter your email password.`)
             $password.parent().addClass('form-element--has-error');
